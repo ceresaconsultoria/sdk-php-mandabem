@@ -1,0 +1,32 @@
+{
+    "name": "ceresaconsultoria/sdk-php-mandabem",
+    "description": "SDK PHP >=7.4 da Api Manda Bem",
+    "keywords": ["api", "library", "psr-4", "mandabem", "sdk"],
+    "homepage": "https://github.com/ceresaconsultoria/sdk-php-mandabem",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Weslley Ceresa",
+            "email": "ceresaconsultoria@gmail.com",
+            "homepage": "https://www.mobilestores.app"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "MB\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": []
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "victorjonsson/markdowndocs": "^1.3"
+    }
+}
